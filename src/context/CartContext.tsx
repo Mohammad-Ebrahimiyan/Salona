@@ -1,9 +1,8 @@
-// src/context/CartContext.tsx
 import { createContext } from "react";
 import { Product } from "../types/Product";
 
 export interface CartContextType {
-  cart: { product: Product; quantity: number }[]; // تغییر از Product[] به {product: Product, quantity: number}[]
+  cart: { product: Product; quantity: number }[]; 
   addToCart: (product: Product) => void;
   updateQuantity: (productId: number, quantity: number) => void;
 }

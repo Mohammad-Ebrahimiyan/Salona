@@ -5,26 +5,11 @@ export interface Product {
   category: string;
   price: number;
   discountPercentage: number;
-  rating: number;
   stock: number;
-  brand: string;
-  weight: number;
-  dimensions: {
-    width: number;
-    height: number;
-    depth: number;
-  };
+  rating:number;
+
   warrantyInformation: string;
-  shippingInformation: string;
-  availabilityStatus: string;
-  reviews: Array<{
-    rating: number;
-    comment: string;
-    date: string;
-    reviewerName: string;
-    reviewerEmail: string;
-  }>;
-  returnPolicy: string;
+
   minimumOrderQuantity: number;
   images: string[];
   thumbnail: string;
