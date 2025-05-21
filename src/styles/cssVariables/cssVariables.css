@@ -1,0 +1,10 @@
+:root {
+  --primary: #f4511e;
+  --discount: #ff5252;
+  --price: #2d88ff;
+  --text-secondary: #666;
+  --card-bg: #fff;
+  --backG: #f7f7f7;
+  --background-light: #fafafa;
+  --card-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
